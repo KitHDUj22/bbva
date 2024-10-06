@@ -14,6 +14,30 @@
 .zoom-animation {
     animation: zoomIn 1s infinite; 
   }
+
+  .board-directors-modal{
+
+width: 70%;
+
+border: 1px solid #d6d6d6;
+
+padding: 20px;
+
+background: #fbfbfb;
+
+border-left: 0;
+
+}
+  .board-directors-modal h2{display: block;margin-bottom: 30px;}
+  .board-directors-modal p{
+    line-height: 2;
+}
+
+.flex{ 
+display: flex;
+}
+
+
 @keyframes zoomIn {
     0% {
       transform: scale(1);
@@ -8215,7 +8239,8 @@ div.reports-see-all {
 
 .board-directors-item {
     border: 1px solid #d6d6d6;
-    cursor: pointer
+    cursor: pointer;
+    width: 30%;
 }
 
 .board-directors-item img {
@@ -8243,9 +8268,7 @@ div.reports-see-all {
     line-height: 24px
 }
 
-.board-directors-modal {
-    display: none
-}
+ 
 
 .bbva-box {
     position: relative;
@@ -12426,6 +12449,9 @@ ul.icon-list li p {
     .form-blue-info.fixed {
         margin-left:15px
     }
+    .flex{flex-wrap: wrap;}
+    .board-directors-item{width: 100%;}
+    .board-directors-modal{width: 100%;border-left: 1px solid;}
 }
 
 @media only screen and (min-width: 768px) and (max-width:991px) {
@@ -12479,3 +12505,5 @@ ul.icon-list li p {
 .form-blue-info ul li+li {
     margin-top: 8px
 }
+
+ 
